@@ -101,16 +101,10 @@ alias pjetty='ps aux | grep jetty'
 alias pag="ps aux | grep"
 alias pys='python -m SimpleHTTPServer'
 alias mnpm="npm --registry=http://r.npm.sankuai.com --cache=$HOME/.npm/.cache/mnpm --userconfig=$HOME/.mnpmrc"
-alias sshdev='ssh linye@dev.sankuai.com'
-alias lrelay='ssh linye@relay.sankuai.com'
-alias ldev='expect ~/.ldev.sh'
 alias babel6='babel-node --presets es2015'
 alias babel7='babel-node --presets stage-0'
 
-alias ali='expect ~/.lali.sh'
-
 [[ -s ~/.autojump/etc/profile.d/autojump.sh ]] && . ~/.autojump/etc/profile.d/autojump.sh
-
 
 export NVM_DIR="/Users/linye/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
